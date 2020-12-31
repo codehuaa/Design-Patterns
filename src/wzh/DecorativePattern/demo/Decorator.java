@@ -1,6 +1,6 @@
 package wzh.DecorativePattern.demo;
 
-public class Decorator extends Component {
+public abstract class Decorator extends Component {
     protected Component component;
 
     // 设置operation
